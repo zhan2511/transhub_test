@@ -1,0 +1,6 @@
+[submodule "cc-training"]
+	path = cc-training
+	url = git@github.com:zhan2511/cc-training
+[submodule "mahimahi"]
+	path = mahimahi
+	url = git@github.com:zhan2511/mahimahi
