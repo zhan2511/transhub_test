@@ -1,0 +1,22 @@
+#####CAN'T WORK#####
+#####YOU NEED TO COPY THE COMMAND MANUALLY#####
+
+docker start transhub
+
+docker exec -it transhub /bin/bash
+
+
+#####YOU NEED TO COPY THE COMMAND STEP BY STEP#####
+
+sysctl -w net.ipv4.ip_forward=1
+
+cd /home/none_root/transhub/cc-training/datagrump/
+
+su none_root -c "./run-contest controller.cc"
+
+mm-throughput-graph 500 ./contest_uplink_log > a.svg
+
+exit
+
+
+
