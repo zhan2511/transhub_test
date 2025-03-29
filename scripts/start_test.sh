@@ -1,12 +1,16 @@
 #####CAN'T WORK#####
 #####YOU NEED TO COPY THE COMMAND MANUALLY#####
 
-docker start transhub
+sudo docker start transhub
 
-docker exec -it transhub /bin/bash
+sudo docker exec -it transhub /bin/bash
 
 
 #####YOU NEED TO COPY THE COMMAND STEP BY STEP#####
+
+cd /home/none_root/transhub/cc-training/
+
+./autogen.sh && ./configure && make
 
 sysctl -w net.ipv4.ip_forward=1
 
