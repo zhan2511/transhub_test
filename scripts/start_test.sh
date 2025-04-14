@@ -22,5 +22,10 @@ mm-throughput-graph 500 ./contest_uplink_log > a.svg
 
 exit
 
+#####WHEN FINISH CODING, TRY TO RESTART CONTAINER#####
+
+sudo docker restart transhub
+
+
 
 
